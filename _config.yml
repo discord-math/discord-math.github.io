@@ -2,6 +2,7 @@ title: Mathematics Discord Server
 description: A place for people to learn and discuss mathematics.
 baseurl: ""
 url: "https://mathematics.gg/"
+theme: minima
 
 github_username:  discord-math
 

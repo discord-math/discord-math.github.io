@@ -1,9 +1,9 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+// Overrides for minima default styles and for styling new elements
 
 // Override site header and footer color defaults
 .site-header {
     background-color: $header-background-color;
+    min-height: 54px;
 }
 
 .site-footer {
@@ -13,4 +13,38 @@
 // Modify link color
 a, a:visited {
     color: #8ab4f8;
+}
+
+// Custom trigger for discord join link
+.discord-trigger {
+    background-color: $discord-invite-bg-color;
+    border: 0px 0px 1px 0px solid #7c48fe;
+}
+
+// Custom page-link
+.page-link.discord-page-link {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0px;
+}
+
+@media screen and (min-width: $on-medium) { 
+    // Override trigger defaults
+    .site-nav input ~ .trigger {
+        display: inline-block;
+    }
+
+    // Override page-link defaults
+    .page-link {
+        &:last-child {
+            margin-right: 10px;
+        }
+    }
+
+    // Make custom trigger look more sensible in dropdown
+    .page-link.discord-page-link {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 0px;
+    }
 }

@@ -18,6 +18,12 @@ a, a:visited {
 // Custom trigger for discord join link
 .discord-trigger {
     background-color: $discord-invite-bg-color;
+
+}
+
+// Cool hover colorchange
+.discord-trigger:hover {
+    background-color: lighten($discord-invite-bg-color, 5%);
 }
 
 // Custom page-link
@@ -25,6 +31,11 @@ a, a:visited {
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 0px;
+}
+
+// Remove underline - looks weird
+a.discord-page-link:hover {
+    text-decoration: none;
 }
 
 @media screen and (min-width: $on-medium) { 

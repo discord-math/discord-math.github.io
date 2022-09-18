@@ -9,3 +9,7 @@ github_username:  discord-math
 locale: en_US
 
 plugins: []
+
+header_pages:
+  - testpage.md
+  - index.md

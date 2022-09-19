@@ -18,11 +18,13 @@ a, a:visited {
 // Custom trigger for discord join link
 .discord-trigger {
     background-color: $discord-invite-bg-color;
-
+    transition: background-color 0.6s;
 }
 
 // Cool hover colorchange
 .discord-trigger:hover {
+    background-color: lighten($discord-invite-bg-color, 8%);
+    transition: background-color 0.6s;
     cursor: pointer;
 }
 
@@ -58,6 +60,8 @@ a.discord-page-link:hover {
         margin-right: 0px;
     }
 }
+
+// Site icon
 .site-icon {
     height: $base-line-height * $base-font-size * 2;
     width: $base-line-height * $base-font-size * 2;
@@ -65,4 +69,11 @@ a.discord-page-link:hover {
     padding-right: 0px;
     margin-right: 10px;
     border-radius: 50%;
+    transition: border-radius 0.2s;
+}
+
+.site-icon:hover {
+    border-radius: 30%;
+    transition: border-radius 0.2s;
+    cursor: pointer;
 }

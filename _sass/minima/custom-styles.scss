@@ -58,3 +58,11 @@ a.discord-page-link:hover {
         margin-right: 0px;
     }
 }
+.site-icon {
+    height: $base-line-height * $base-font-size * 2;
+    width: $base-line-height * $base-font-size * 2;
+    margin-top: $base-line-height * $base-font-size * 0.125;
+    padding-right: 0px;
+    margin-right: 10px;
+    border-radius: 50%;
+}

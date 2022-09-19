@@ -8,8 +8,10 @@ github_username:  discord-math
 
 locale: en_US
 
-plugins: []
 
 header_pages:
   - index.md
+  - news.md
   - about.md
+
+plugins: []

@@ -1,1 +1,4 @@
-[]
+- name: Rules
+  link: /rules
+- name: About us
+  link: /info

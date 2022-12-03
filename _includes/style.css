@@ -36,6 +36,9 @@
     --gray-900: #dcddde;
     --tint-dark: #04040512;
     --tint-light: #4f545c7a;
+    --tint-blurple: #5865f24c;
+    --tint-highlight: #faa61a19;
+    --highlight: #faa81a;
     --blurple: #5865f2;
     --blurple-tint: #4752c4;
     --black: #000000;
@@ -90,6 +93,38 @@ pre {
     border-radius: 4px;
     font-size: 0.875rem;
     line-height: 1.125rem;
+}
+
+*:target {
+    background: var(--tint-highlight);
+    position: relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+
+*:target:before {
+    content: "";
+    background-color: var(--highlight);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    width: 2px;
+}
+
+.mention {
+    display: inline-block;
+    padding: 0 2px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 500;
+    background: var(--tint-blurple);
+}
+
+.mention:hover {
+    background: var(--blurple);
 }
 
 header {

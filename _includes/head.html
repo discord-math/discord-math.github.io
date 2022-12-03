@@ -3,10 +3,17 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-    <link rel="icon" type="image/png" href="/static/img/icon.png" />
+    <link rel="icon" type="image/png" href="/static/img/icon.webp" />
 
     <link rel="stylesheet" href="/static/css/modern-normalize.css" />
     <link rel="stylesheet" href="/static/css/style.css" />
+
+    <title>
+        {% if page.title %}
+            {{ page.title }} |
+        {% endif %}
+        {{ site.title }}
+    </title>
 
     {% if page.mathjax %}
         {%- include mathjax.html -%}

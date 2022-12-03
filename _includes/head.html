@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="/static/css/modern-normalize.css" />
     <link rel="stylesheet" href="/static/css/style.css" />
 
+    {% if include.hero %}
+        <link rel="stylesheet" href="/static/css/hero_style.css" />
+    {% endif %}
+
     <title>
         {% if page.title %}
             {{ page.title }} |

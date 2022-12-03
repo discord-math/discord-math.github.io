@@ -1,0 +1,14 @@
+<header>
+    <a class="logo" href="{{ site.url }}">
+        <img src="/static/img/icon.png" height="48px" />
+        <h1>Mathematics</h1>
+    </a>
+
+    <nav>
+        {% for item in site.data.navigation %}
+            <a href="{{ item.link }}">{{ item.name }}</a>
+        {% endfor %}
+
+        <a class="highlight" role="button" href="{{ site.data.links.discord_invite }}">Join Discord</a>
+    </nav>
+</header>

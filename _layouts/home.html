@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    {%- include head.html -%}
+    <body>
+        {%- include navigation.html -%}
+
+        {%- include hero.html -%}
+
+        <main>
+            {% if page.title %}
+            <h1>{{ page.title }}</h1>
+            {% endif %}
+            {{ content }}
+        </main>
+
+        {%- include footer.html -%}
+    </body>
+</html>

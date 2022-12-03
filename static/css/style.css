@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Whitney Book';
+    font-style: normal;
+    src: url("/static/font/whitney_light.woff") format("woff");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Whitney Book';
+    font-style: normal;
+    src: url("/static/font/whitney_medium.woff") format("woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Whitney Book';
+    font-style: normal;
+    src: url("/static/font/whitney_heavy.woff") format("woff");
+    font-weight: 700;
+}
+
+:root {
+    --header-height: 4rem;
+    --content-max-width: 80ch;
+
+    --white: #ffffff;
+    --gray-100: #202225;
+    --gray-200: #292b2f;
+    --gray-300: #2f3136;
+    --gray-400: #36393f;
+    --gray-500: #4f545c;
+    --gray-600: #96989d;
+    --gray-900: #dcddde;
+    --tint-dark: #04040512;
+    --tint-light: #4f545c7a;
+    --blurple: #5865f2;
+    --blurple-tint: #4752c4;
+    --black: #000000;
+
+    --background-tertiary: var(--gray-100);
+    --background-secondary-alt: var(--gray-200);
+    --background-secondary: var(--gray-300);
+    --background-primary: var(--gray-400);
+    --foreground-tertirary: var(--gray-500);
+    --foreground-secondary: var(--gray-600);
+    --foreground-primary: var(--gray-900);
+    --foreground-highlight: var(--white);
+}
+
+body {
+    background: var(--background-primary);
+    color: var(--foreground-primary);
+    font-family: 'Whitney Book', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    line-height: 1.375rem;
+    grid-template-rows: min-content min-content auto min-content;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "hero" "main" "footer";
+}
+
+a {
+    color: var(--foreground-primary);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--foreground-highlight);
+}
+
+header {
+    grid-area: header;
+    height: min-content;
+    min-height: var(--header-height);
+    background: var(--background-tertiary);
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .logo img {
+    margin: .3rem;
+    border-radius: 50%;
+    transition: border-radius 0.3s;
+}
+
+header .logo img:hover {
+    border-radius: 30%;
+    transition: border-radius 0.3s;
+}
+
+header .logo {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-right: auto;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header nav {
+    display: contents;
+}
+
+header nav a {
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    margin: 0.5rem;
+    padding: 0 1rem;
+    height: calc(var(--header-height) - 0.5rem * 2);
+    font-size: 1.25rem;
+}
+
+header nav a.highlight {
+    background: var(--blurple);
+    color: var(--foreground-highlight);
+}
+
+header nav a:hover {
+    background: var(--tint-light);
+}
+
+header nav a.highlight:hover {
+    background: var(--blurple-tint);
+}
+
+main {
+    grid-area: main;
+    max-width: var(--content-max-width);
+    min-width: 0;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+footer {
+    grid-area: footer;
+    align-self: end;
+    background: var(--background-secondary);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.hero {
+    grid-area: hero;
+    background: url("/static/img/backdrop.png") repeat fixed;
+    background-size: 32rem;
+    min-height: 40vh;
+    max-height: min-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "logo tagline" "logo cta";
+    justify-items: center;
+}
+
+.hero .logo, .hero .tagline, .hero .cta {
+    max-width: calc(var(--content-max-width) / 1.5);
+}
+
+.hero .logo {
+    grid-area: logo;
+    justify-self: end;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .logo img {
+    width: 50%;
+    padding: 1rem;
+}
+
+.hero .logo h1 {
+    margin: 0;
+    padding: 0.5em;
+    font-size: 3.25rem;
+    font-weight: bold;
+    text-align: center;
+    background: #00000094;
+    border-radius: 3px;
+}
+
+.hero .tagline {
+    grid-area: tagline;
+    align-self: end;
+    background: #00000094;
+    border-radius: 3px;
+    padding: 2rem;
+    justify-self: start;
+}
+
+.hero .tagline span {
+    font-size: 1.5rem;
+}
+
+.hero .cta {
+    grid-area: cta;
+    justify-self: start;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero .cta a {
+    display: block;
+    background: var(--blurple);
+    border-radius: 3px;
+    color: var(--foreground-highlight);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1rem;
+}
+
+.hero .cta a:hover {
+    background: var(--blurple-tint);
+}
+
+@media screen and (max-width: 800px) {
+    .hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "logo" "tagline" "cta";
+    }
+
+    .hero .logo, .hero .tagline, .hero .cta {
+        justify-self: center;
+    }
+}

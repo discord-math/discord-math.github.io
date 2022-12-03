@@ -3,7 +3,11 @@ description: A place for people to learn and discuss mathematics.
 baseurl: ""
 url: "https://mathematics.gg/"
 
-github_username:  discord-math
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
 
 locale: en_US
 

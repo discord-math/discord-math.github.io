@@ -12,3 +12,10 @@ defaults:
 locale: en_US
 
 plugins: []
+
+collections_dir: content
+
+collections:
+  guides:
+    output: true
+    permalink: /guides/:title

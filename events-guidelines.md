@@ -26,7 +26,7 @@ People interested in talks have the <a class="mention">@Talks</a> role, and shou
 
 ## Talks
 
-We welcome talks on all topics within mathematics, or applications of mathematics as long as the main topic is still the math. Both basic and advanced topics are welcome, although you should keep in mind the demographics of our server: most of our users are in high school, however if weighted by activity on the server, the most active users are upper undergraduate or graduate students.
+We welcome talks on all topics within mathematics, or applications of mathematics as long as the main topic is still the math. Both basic and advanced topics are welcome, although you should keep in mind the demographics of our server: most of our users are in high school; however, if weighted by activity on the server, the most active users are upper undergraduate or graduate students.
 
 We expect the presenter to have a good understanding of the topic of their talk, as well as reasonably adjacent areas of math. If it is not obvious from your other contributions on the server that you fit this criterion (e.g. if you're a new member), we might ask you to provide some relevant credentials, or the slides for your talk, or similar.
 

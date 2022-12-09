@@ -8,9 +8,9 @@
     <style>
         {%- include modern-normalize.css -%}
         {%- include style.css -%}
-        {% if include.hero %}
-            {%- include hero_style.css -%}
-        {% endif %}
+        {% for css in page.extra_styles %}
+            {%- include extra_styles/{{ css }}.css -%}
+        {% endfor %}
     </style>
 
     <title>

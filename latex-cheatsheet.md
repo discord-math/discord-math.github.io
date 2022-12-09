@@ -126,10 +126,10 @@ $$ \int f(x)\, dx$$
 <div class="latexexample">
 $$ \int f(x)\, dx$$
 </div>
-In the former case the space between $f(x)$ and $dx$ may seem too small. To fix this, authors commonly add a spacing macro (in this example `\,`) to add some additional horizontal space. A list of common spacing macros is given in the [Commands Reference](#spacing) below.
+In the former case the space between $f(x)$ and $dx$ may seem too small. To fix this, authors commonly add a spacing commands (in this example `\,`) to add some additional horizontal space. A list of common spacing commands is given in the [Commands Reference](#spacing) below.
 
 ### Some common mistakes
-There are a number of common mistakes that $\LaTeX$ beginners make. The most obvious case of this is not using macros for standard functions such as triogonometric functions ($\sin$, $\cos$, etc) and logarithms ($\ln$ and $\log$). Compare, for example,
+There are a number of common mistakes that $\LaTeX$ beginners make. The most obvious case of this is not using commands for standard functions such as triogonometric functions ($\sin$, $\cos$, etc) and logarithms ($\ln$ and $\log$). Compare, for example,
 ```latex
 $$ \int tan(x)\, dx = ln \lvert sec(x) \rvert + c $$
 ```
@@ -138,12 +138,26 @@ $$ \int tan(x)\, dx = ln \lvert sec(x) \rvert + c $$
 </div>
 with
 ```latex
-$$ \int \tan(x) dx = \ln \lvert \sec(x) \rvert + c $$
+$$ \int \tan(x)\, dx = \ln \lvert \sec(x) \rvert + c $$
 ```
 <div class="latexexample">
-$$ \int \tan(x) dx = \ln \lvert \sec(x) \rvert + c $$
+$$ \int \tan(x)\, dx = \ln \lvert \sec(x) \rvert + c $$
 </div>
-One can also render derivatives and infinitesimals in a more standard way by using the `\text` macro
+One can also render derivatives and infinitesimals in a more standard way by using the `\mathrm` command; compare
+```latex
+$$ \int \tan(x)\, dx $$
+```
+<div class="latexexample">
+$$ \int \tan(x)\, dx $$
+</div>
+and
+```latex
+$$ \int \tan(x)\, \mathrm{d}x $$
+```
+<div class="latexexample">
+$$ \int \tan(x)\, \mathrm{d}x $$
+</div>
+Another way to accomplish this is using a command such as `\dd` or `\dv` from the [physics package](https://ctan.org/pkg/physics){:target="_blank"}.
 
 ## Using $\LaTeX$ on the server
 The <a class="mention">@TeXiT</a> bot can be used anywhere on the server to render mathematics using $\LaTeX$. To use it, simply write a normal message with any latex expressions that you want to be rendered enclosed in either `$ ... $` or `$$ ... $$`.
@@ -290,7 +304,7 @@ Note that most of these fonts require the <a href="https://ctan.org/pkg/amsfonts
 | Line segment | $\overline{AB}$ | `\overline{AB}` |
 {: .latex_table}
 
-### Other useful symbols/macros
+### Other useful commands
 
 | $\LaTeX$ spacing command | Description |
 |:---|:---|
@@ -314,4 +328,4 @@ Below is a list of further learning resources and reference material for $\LaTeX
 - [TeX Live](https://www.tug.org/texlive/){:target="_blank"} - A multiplatform $\LaTeX$ compiler.
 - [CTAN](https://ctan.org/){:target="_blank"} - The Comprehensive $\TeX$ Archive Network, the canonical repository for $\TeX$ and $\LaTeX$ packages.
 
-[^1]: Note that braces are not always *required* to pass arguments to macros. For example, both `\frac 1 2` and `\frac{1}{2}`, as well as `\mathbb N` and `\mathbb{N}`, produce the same output; nevertheless, in each case the latter style is customarily preferred.
+[^1]: Note that braces are not always *required* to pass arguments to commands. For example, both `\frac 1 2` and `\frac{1}{2}`, as well as `\mathbb N` and `\mathbb{N}`, produce the same output; nevertheless, in each case the latter style is customarily preferred.

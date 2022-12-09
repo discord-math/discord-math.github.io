@@ -9,7 +9,7 @@ defaults:
     values:
       layout: default
 
-collections_dir: /content
+collections_dir: /
 
 collections:
   books:

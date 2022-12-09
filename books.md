@@ -6,6 +6,6 @@ updated_at: 2022-12-08
 
 <ul>
 {% for topic in site.books %}
-  {% if topic.url != page.url %} <li><a href="{{ topic.url }}">{{ topic.title }}</a></li> {% endif %}
+  <li><a href="{{ topic.url }}">{{ topic.title }}</a></li>
 {% endfor %}
 </ul>

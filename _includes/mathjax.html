@@ -16,6 +16,12 @@
         svg: {
             scale: 2.087491,
             minScale: 1.1001481
+        },
+        startup: {
+            ready: function () {
+                MathJax._.core.MmlTree.MmlNodes.math.MmlMath.defaults.scriptminsize = '0px';
+                MathJax.startup.defaultReady();
+            }
         }
     };
 </script>

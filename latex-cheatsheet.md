@@ -1,42 +1,27 @@
 ---
-title: $\LaTeX$ cheatsheet
+title: LaTeX cheatsheet
 updated_at: 2022-12-07
 mathjax: true
-layout: cheatsheet
+extra_styles: cheatsheet
 ---
 
 ## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [What is $\\LaTeX$?](#what-is-latex)
-- [Examples](#examples)
-  - [Inline vs Display mode](#inline-vs-display-mode)
-  - [Large operators](#large-operators)
-  - [Parentheses](#parentheses)
-- [Using $\\LaTeX$ on the server](#using-latex-on-the-server)
-- [Command reference](#command-reference)
-  - [Simple algebraic symbols](#simple-algebraic-symbols)
-  - [Greek letters](#greek-letters)
-    - [Mathematical variants](#mathematical-variants)
-  - [Other scripts](#other-scripts)
-  - [Set-theoretic and logical symbols](#set-theoretic-and-logical-symbols)
-  - [Calculus](#calculus)
-  - [Simple geometry](#simple-geometry)
-- [Further resources](#further-resources)
+{:.no_toc}
+
+* TOC
+{:toc}
 <hr>
 
 ## What is $\LaTeX$?
 $\LaTeX$ is the standard system used for rendering mathematical and scientific documents. It is also how you can render mathematical expressions and formulae server-wide using the [@TeXiT](https://discord.com/users/510789298321096704){: .mention target="_blank"} bot. If you've ever wondered how scientific papers or textbooks are laid out in the way they are, this is the guide for you.
 
-Unlike other document creation systems such as Microsoft Word, documents produced using $\LaTeX$ are not written using a so-called "what-you-see-is-what-you-get" format. Instead, documents are written in plaintext `.tex` files in the $\LaTeX$ language that are then compiled into `.pdf` documents.
+Unlike other document creation systems such as Microsoft Word, documents produced using $\LaTeX$ are not written using a so-called "what-you-see-is-what-you-get" format. Instead, documents are written in plaintext `.tex` files in the $\LaTeX$ language that are then *compiled* into `.pdf` documents.
 
-Regular text is rendered as itself; however, the following punctuation marks have a special meaning:
-  - `\` - The backslash symbol used for "commands" or "macros" which insert special symbols or notation into the text.
-  - `{ expr }` - Braces are used both to pass arguments to macros and to group symbols/expressions into a block.
-  - `$ expr $` or `\( expr \)` - These symbols render the enclosed expressions in <i>inline math mode</i> (or simply math mode).
-  - `$$ exp $$` or `\[ expr \]` - These symbols render the enclosed expressions in <i>display math mode</i> (or simply display mode). We will see the difference between the two math modes [below](#examples).
-  - Note that there are two ways to enter both math modes. While both versions operate in largely the same way, there are technical reasons to prefer `\(` and `\[` over their dollar sign equivalents.
+Regular text will be rendered as itself, but the following punctuation symbols have special meaning: The backslash symbol `\` is used for "commands" or "macros" which insert specical symbols or notation into the text. Braces (`{` and `}`) are used to group symbols together into a block. Dollar signs (`$` and `$$`) are used to include formulae in the text.
 
-The majority of other characters (namely `!`, `'`, `(`, `)`, `*`, `+`, `,`, `-`, `.`, `/`, `:`, `;`, `<`, `=`, `>`, `?`, `[`, `]`, and `|`) are rendered as themselves. Note that certain characters, such as the braces `{` and `}`, must be <i>escaped</i> using the backslash symbol (i.e. `\{` and `\}`) to be rendered correctly as they are otherwise reserved by the $\LaTeX$ compiler.
+There are two general modes of operation: "math mode" is used for formulae, and "text mode" is used for text. Formulae can be surrounded by single dollars to be included in the text "inline", for example `$a + b = c$` produces $a+b=c$. Double dollars render a large fomrula in "display style", which inserts line breaks around the formula, and also has an effect on how some notation is rendered (more on this in [Examples](#examples)). 
+
+Most symbols are rendered as themselves (namely, `!`, `'`, `(`, `)`, `*`, `+`, `,`, `-`, `.`, `/`, `:`, `;`, `<`, `>`, `=`, `?`, `[`, `]`, `|`). To render other, more interesting characters, the commands given in the [Commands Reference](#command-reference) below can be used. To write literal braces and dollars, `\{`, `\}`, and `\$` must be used, respectively.
 
 ## Examples
 In this section we explore some demonstrative examples of how to render mathematical expressions and formulae using $\LaTeX$, as well as point out some common mistakes.
@@ -44,27 +29,27 @@ In this section we explore some demonstrative examples of how to render mathemat
 ### Inline vs Display mode
 Let's look at a $\LaTeX$ snippet that renders an equation in math mode:
 ```latex
-Perhaps the most famous equation in all of physics is \(e=mc^2\)
+Perhaps the most famous equation in all of physics is $E=mc^2$
 ```
 This is rendered as:
 <div class="latexexample">
-$\text{Perhaps the most famous equation in all of physics is } e=mc^2$
+$\text{Perhaps the most famous equation in all of physics is } E=mc^2$
 </div>
 
-There are a few things worth noting here. First, the $\LaTeX$ rendering engine will automatically add whitespace around symbols such as `=`. Second, the math that is rendered is <i>inline</i> with the rest of the text. 
+There are a few things worth noting here. First, the $\LaTeX$ rendering engine will automatically add whitespace around symbols such as `=`. Second, the math that is rendered is *inline* with the rest of the text. 
 
 Let's see what happens when we try rendering the same equation in display mode.
 ```latex
-Perhaps the most famous equation in all of physics is \[e=mc^2\]
+Perhaps the most famous equation in all of physics is $$E=mc^2$$
 ```
 <div class="latexexample">
 $\text{Perhaps the most famous equation in all of physics is}$
 
-$$ e = mc^2 $$
+$$ E = mc^2 $$
 
 </div>
 
-Here, we see display mode in action. Display mode renders your mathematical expression on its own centered line. Nice! A common use case for display mode is for rendering "large" operators in a more readable format. Let's look at another two examples where the only difference is that the first is rendered in math mode and the second in display mode.
+Display mode renders your mathematical expression on its own centered line. A common use case for display mode is for rendering "large" operators in a more readable format. Let's look at another two examples where the only difference is that the first is rendered in math mode and the second in display mode.
 
 <div class="latexexample">
 $\text{Fubini's theorem gives conditions under which} \int_{X\times Y} f(x,y)\,\text{d}(x,y) = \int_X\left(\int_Y f(x,y)\,\text{d}y\right)\,\text{d}x$
@@ -94,11 +79,11 @@ A common mistake people make is in trying to render more complex expressions. Fo
 <div class="latexexample">
 $$\sum_n=1^5$$
 </div>
-Yikes. This is where braces enter the picture. Braces, `{` and `}`, are used to group symbols and expressions. The correct way to render what we want is instead `\sum_{n=1}^5`, giving
+The correct way to render what we want is to use braces to enclose the lower bound of the sum; i.e. `\sum_{n=1}^5`, giving
 <div class="latexexample">
 $$\sum_{n=1}^5$$
 </div>
-A special case of "large operator" is the fraction. Fractions are rendered with their own syntax; namely, `\frac{a}{b}`, which renders in inline mode as
+A special case of "large operator" is the fraction. Fractions are rendered with their own syntax[^1]; namely, `\frac{a}{b}`, which renders in inline mode as
 <div class="latexexample">
 $\frac{a}{b}$
 </div>
@@ -125,6 +110,40 @@ rendered in display mode as
 <div class="latexexample">
 $$\left\{ x \middle\lvert x \leq \frac{1}{2} \right\}$$
 </div>
+
+### Spacing
+In general, $\LaTeX$ handles the horizontal spacing of mathematical expressions automatically. Sometimes, however, this produces undesirable results. Compare the following two expressions,
+```latex
+$$ \int f(x) dx $$
+```
+<div class="latexexample">
+$$ \int f(x) dx $$
+</div>
+and
+```latex
+$$ \int f(x)\, dx$$
+```
+<div class="latexexample">
+$$ \int f(x)\, dx$$
+</div>
+In the former case the space between $f(x)$ and $dx$ may seem too small. To fix this, authors commonly add a spacing macro (in this example `\,`) to add some additional horizontal space. A list of common spacing macros is given in the [Commands Reference](#spacing) below.
+
+### Some common mistakes
+There are a number of common mistakes that $\LaTeX$ beginners make. The most obvious case of this is not using macros for standard functions such as triogonometric functions ($\sin$, $\cos$, etc) and logarithms ($\ln$ and $\log$). Compare, for example,
+```latex
+$$ \int tan(x)\, dx = ln \lvert sec(x) \rvert + c $$
+```
+<div class="latexexample">
+$$ \int tan(x)\, dx = ln \lvert sec(x) \rvert + c $$
+</div>
+with
+```latex
+$$ \int \tan(x) dx = \ln \lvert \sec(x) \rvert + c $$
+```
+<div class="latexexample">
+$$ \int \tan(x) dx = \ln \lvert \sec(x) \rvert + c $$
+</div>
+One can also render derivatives and infinitesimals in a more standard way by using the `\text` macro
 
 ## Using $\LaTeX$ on the server
 The <a class="mention">@TeXiT</a> bot can be used anywhere on the server to render mathematics using $\LaTeX$. To use it, simply write a normal message with any latex expressions that you want to be rendered enclosed in either `$ ... $` or `$$ ... $$`.
@@ -271,11 +290,28 @@ Note that most of these fonts require the <a href="https://ctan.org/pkg/amsfonts
 | Line segment | $\overline{AB}$ | `\overline{AB}` |
 {: .latex_table}
 
+### Other useful symbols/macros
+
+| $\LaTeX$ spacing command | Description |
+|:---|:---|
+| `\quad` | A space equal to the current font size |
+| `\qquad` | Twice the length of `\quad` |
+| `\,` | 3/18ths of `\quad` |
+| `\:` | 4/18ths of `\quad` |
+| `\;` | 5/18ths of `\quad` |
+| `\!` | -3/18ths of `\quad` |
+| `\ ` (backslash followed by a space) | A space equivalent to that in normal text |
+
+
+
 ## Further resources
 Below is a list of further learning resources and reference material for $\LaTeX$ alongside guides on how you can get up and running with $\LaTeX$ quickly and easily.
 
 - [#latex-help](https://discord.com/channels/268882317391429632/840667252793802752){: .mention target="_blank"} - The server channel for $\LaTeX$ help.
 - [Overleaf Learn](https://www.overleaf.com/learn){:target="_blank"} - A high-quality and comprehensive set of guides and instructions using $\LaTeX$.
+- [DeTeXify](https://detexify.kirelabs.org/classify.html){:target="_blank"} - A useful utility for finding symbols you don't know the command for. Uses OCR handwriting recognition to recommend a symbol.
 - [Overleaf](https://www.overleaf.com){:target="_blank"} - An online cloud-based $\LaTeX$ editor. Free for personal use with additional paid features for collaboration and quality-of-life.
 - [TeX Live](https://www.tug.org/texlive/){:target="_blank"} - A multiplatform $\LaTeX$ compiler.
 - [CTAN](https://ctan.org/){:target="_blank"} - The Comprehensive $\TeX$ Archive Network, the canonical repository for $\TeX$ and $\LaTeX$ packages.
+
+[^1]: Note that braces are not always *required* to pass arguments to macros. For example, both `\frac 1 2` and `\frac{1}{2}`, as well as `\mathbb N` and `\mathbb{N}`, produce the same output; nevertheless, in each case the latter style is customarily preferred.

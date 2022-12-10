@@ -19,7 +19,7 @@ If you see anyone violating these, feel free to ping <a class="mention">@Moderat
 ## GUIDELINES
  - Respect topics of the channels: __make sure that you are asking in the right place__.
  - Avoid Directly Messaging people for help without their consent. In general it is bad etiquette to DM people you do not know.
- - #help channels are for homework type questions/problems. Topical channels prioritise open-ended discussion *about* particular topics.
+ - #help channels are for homework type questions/problems. Topical channels prioritize open-ended discussion *about* particular topics.
  - Do not spam your questions in the wrong channel or across multiple channels. Be patient and wait for someone to answer.
  - When asking a question, show what you tried to solve the problem. __We are not here to do your homework for you, but we are here to help you learn how to do your homework__. See [#❓how-to-get-help](https://discord.com/channels/268882317391429632/488120190538743810){: .mention target="_blank"} for more info on how to ask questions.
  - Respect that other people might be at a different stage in their education than you, what is obvious to you might not be obvious to them.

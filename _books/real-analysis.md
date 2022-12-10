@@ -7,14 +7,14 @@ Below is a list of reviews of books on real analysis.
 ---
 **Principles of Mathematical Analysis**\\
 Rudin, W. (3rd Ed. 1976). *ISBN 9780070856134*.\\
-*Prerequisites: Proofwriting and single variable calculus.*
+*Prerequisites: Proof writing and single variable calculus.*
 
 Rudin's book is infamous and widely used, but it is also terse and difficult.  Rudin presents material in reasonable generality (through metric spaces) and spends less time on motivation in favor of definition-theorem-proof style writing.  Rudin's proofs are often very clean, but sometimes fail to convey how you would have come up with the proof yourself.  The exercises are great, they scale well in difficulty and sometimes guide you to proving relevant results.  The best parts of Rudin are Chapters 1-8, including the reals, metric spaces, sequences and series, continuity, differentiation, Riemann integration, function convergence, and special functions.  The remaining chapters on differential forms and Lebesgue integration are poorly written - use a different book after Chapter 8 of Rudin.
 
 ---
 **Real Mathematical Analysis**\\
 Pugh, C. C. (2nd Ed. 2015). *ISBN 9783319177700*\\
-*Prerequisites: Proofwriting and single variable calculus*
+*Prerequisites: Proof writing and single variable calculus*
 
 Pugh's book is the antithesis to Rudin's.  It covers material in good generality (metric spaces and basic ideas of general topology), but unlike Rudin, it is written with tons of motivation, pictures, and descriptions of both the objects and the proofs.  The downside of this is that Pugh's proofs can feel less rigorous and clear.  There are even a few "proofs by picture."  Pugh also covers a few esoteric extra topics on top of the ones covered by Rudin, e.g. theory of Cantor sets.  Pugh has excellent exercises ranging in difficulty, including some "3-star" problems that he himself can't solve.  Pugh's sections on differential forms and Lebesgue integration are better than Rudin's, but it is still best to read a book dedicated to these and to stop reading Pugh after Chapter 4.
 

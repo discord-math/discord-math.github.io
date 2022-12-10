@@ -1,0 +1,26 @@
+.highlight .hll { background-color: #404040; }
+.highlight { border-radius: 4px; background: #202020; color: #d0d0d0; }
+.highlight :is(.c, .ch, .cm, .cpf, .c1) { color: #ababab; font-style: italic; }
+.highlight .err { color: #a61717; background-color: #e3d2d2; }
+.highlight :is(.esc, .g, .l, .n, .o, .x, .p, .ld, .ni, .nl, .nx, .py, .pm) { color: #d0d0d0; }
+.highlight :is(.k, .kc, .kd, .kn, .kr, .kt, .nt, .ow) { color: #6ebf26; font-weight: bold; }
+.highlight .cp { color: #cd2828; font-weight: bold; }
+.highlight .cs { color: #e50808; font-weight: bold; background-color: #520000; }
+.highlight :is(.gd, .gr, .gt) { color: #d22323; }
+.highlight .ge { color: #d0d0d0; font-style: italic; }
+.highlight .gh { color: #ffffff; font-weight: bold; }
+.highlight .gi { color: #589819; }
+.highlight .go { color: #cccccc; }
+.highlight .gp { color: #aaaaaa; }
+.highlight .gs { color: #d0d0d0; font-weight: bold; }
+.highlight .gu { color: #ffffff; text-decoration: underline; }
+.highlight .kp { color: #6ebf26; }
+.highlight :is(.m, .mb, .mf, .mh, .mi, .mo, .il) { color: #51b2fd; }
+.highlight :is(.s, .sa, .sb, .sc, .dl, .sd, .s2, .se, .sh, .si, .sr, .s1, .ss) { color: #ed9d13; }
+.highlight :is(.na, .ne) { color: #bbbbbb; }
+.highlight :is(.nb, .bp) { color: #2fbccd; }
+.highlight :is(.nc, .nn) { color: #71adff; text-decoration: underline; }
+.highlight :is(.no, .nv, .vc, .vg, .vi, .vm) { color: #40ffff; }
+.highlight :is(.nd, .sx) { color: #ffa500; }
+.highlight :is(.nf, .fm) { color: #71adff; }
+.highlight .w { color: #666666; }

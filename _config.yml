@@ -9,6 +9,14 @@ defaults:
     values:
       layout: default
 
+collections_dir: /
+
+collections:
+  books:
+    output: true
+    permalink: /:collection/:name
+    sort_by: title
+
 locale: en_US
 
 plugins: []

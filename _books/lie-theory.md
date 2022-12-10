@@ -4,7 +4,7 @@ title: Lie Theory
 
 Below is a list of reviews of books on Lie theory.
 
-<hr>
+---
 **Naive Lie Theory**\\
 Stillwell, J. (2008). *ISBN 9780387782140*.\\
 *As the title suggests this is an introduction to Lie theory with minimal background requirements: linear algebra and some calculus.*

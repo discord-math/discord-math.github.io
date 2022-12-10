@@ -4,7 +4,7 @@ title: Combinatorics
 
 Below is a list of reviews of books on combinatorics
 
-<hr>
+---
 **A Walk Through Combinatorics**\\
 Bóna, M. (4th Ed 2016). *ISBN 9789813237452*.\\
 *Geared towards a first course in combinatorics*

@@ -4,7 +4,7 @@ title: Algebraic Geometry
 
 Below is a list of reviews of books on algebraic geometry.
 
-<hr>
+---
 **Ideals, Varieties and Algorithms**\\
 Cox, D., Little, J., O'Shea, D. (4th ed. 2015) *ISBN 9783319167206*\\
 *Prerequisites: Linear Algebra and some mathematical maturity, abstract algebra recommended*

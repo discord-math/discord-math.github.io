@@ -4,7 +4,7 @@ title: Ordinary Differential Equations
 
 Below is a list of reviews of books on ordinary differential equations.
 
-<hr>
+---
 **Fundamentals of Differential Equations**\\
 Nagle, R., Saff, E., Snider, A. (9th Ed. 2017). *ISBN 9780321977069*.\\
 *Prerequisites: Single-variable calculus minimally, but strongly recommend multivariable calculus and linear algebra*

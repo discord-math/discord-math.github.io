@@ -4,14 +4,14 @@ title: Abstract Algebra
 
 Below is a list of reviews of books on abstract algebra.
 
-<hr>
+---
 **Basic Algebra I**\\
 Jacobson, N. (2nd Ed. 1985). [Free Download](http://www.math.toronto.edu/~ila/Jacobson-Basic_algebra_I%20(1).pdf){:target="_blank"}\\
 *Prerequisites: comfort with proof-based mathematics, basic linear algebr for some chapters.*
 
 Very solid treatment of standard material in a two-semester abstract algebra sequence in the first four chapters, with good exposition and exercises. Contains and additional four chapters which go over less-standard material like lattices.
 
-<hr>
+---
 **Algebra**\\
 Lang, S. (3rd Ed. 2002). *ISBN 9780387953854*.\\
 *Proofwriting. Background in analysis will help with understanding some examples.*

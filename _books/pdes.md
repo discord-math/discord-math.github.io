@@ -4,7 +4,7 @@ title: Partial Differential Equations
 
 Below is a list of reviews of books on partial differential equations.
 
-<hr>
+---
 **Partial Differential Equations**\\
 Evans, L. C. (1998). *ISBN 9780821807729*.\\
 *Prerequisities: Multivariable calculus for the first section, measure theory and functional analysis for chapter 5 onwards*

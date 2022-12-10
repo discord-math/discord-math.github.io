@@ -4,7 +4,7 @@ title: Complex Analysis
 
 Below is a list of reviews of books on complex analysis.
 
-<hr>
+---
 **Complex Variables and Applications**\\
 Brown, J. W., Churchill, R. V. (9th Ed. 2013). *ISBN 9780073383170*.\\
 *Prerequisites: Multivariable calculus*

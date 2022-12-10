@@ -4,7 +4,7 @@ title: Functional Analysis, Harmonic Analysis, and Measure Theory
 
 Below is a list of reviews of books on functional and harmonic analysis and measure theory
 
-<hr>
+---
 **Functional Analysis, Sobolev Spaces and Partial Differential Equations**\\
 Brezis, H. (2011). *ISBN 9780387709130*.\\
 *Prerequisites: Normed vector and Complete metric spaces, Measure Theory, Multivariable Calculus.*
@@ -16,7 +16,7 @@ Chapter 5 & 6 are here to discuss specific properties of Hilbert spaces and some
 Chapter 7 is an introduction to abstract vector valued ODEs, in the Hilbertian case, through semigroup theory, the idea here is to define exponential of some unbounded operators.
 Finally Chapter 8 and 9 are about construction of Lp-based Sobolev spaces and their properties, first in the one dimensional, then in the n-dimensional case. Their applications to solve linear (elliptic) PDEs in the L²-based case require tools introduced earlier in the first part (e.g. Chapter 5). In the same vibe, Chapter 10 is an application of Chapter 7 to few examples like the Heat and the Wave Equations with few comments.
 
-<hr>
+---
 **Fourier Analysis: An Introduction (Princeton Lectures in Analysis)**\\
 Stein, E. M., Shakarchi, R. (2011). *ISBN 9781400831234*\\
 *Prerequisites: Multivariable calculus, basic real analysis/advanced calculus, linear algebra, and comfort with complex valued functions*

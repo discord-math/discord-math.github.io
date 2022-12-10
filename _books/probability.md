@@ -4,7 +4,7 @@ title: Probability Theory
 
 Below is a list of reviews of books on probability theory.
 
-<hr>
+---
 **Lectures on Probability Theory and Mathematical Statistics**\\
 Tobago, M. (3rd Ed. 2017). *ISBN 9781981369195*.\\
 *No prerequisites*

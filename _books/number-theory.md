@@ -4,7 +4,7 @@ title: Number Theory
 
 Below is a list of reviews of books on number theory.
 
-<hr>
+---
 **An Introduction to the Theory of Numbers**\\
 Niven, I., Zuckerman, H. S., Montgomery, H. L. (5th Ed. 1991). *ISBN 9780471625469*\\
 *Prerequisites: minimally, calculus and comfort with proofs; but it helps to know linear and abstract algebra*

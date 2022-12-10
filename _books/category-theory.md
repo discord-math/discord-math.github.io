@@ -4,7 +4,7 @@ title: Category Theory
 
 Below is a list of reviews of books on category theory.
 
-<hr>
+---
 **Kerodon**\\
 Lurie, J., *et al*. [Free Download - Work in Progress](https://kerodon.net){:target="_blank"}\\
 *Prerequisites: Category theory and modern algebraic topology (nonabelian cohomology, stable homotopy theory, etc.)*

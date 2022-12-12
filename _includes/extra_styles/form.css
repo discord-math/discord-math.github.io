@@ -1,0 +1,39 @@
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--blurple);
+    color: var(--foreground-highlight);
+    border: none;
+    border-radius: 3px;
+    padding: 0.5em;
+}
+
+.button:hover {
+    background: var(--blurple-tint);
+}
+
+textarea {
+    width: 100%;
+    padding: 1em;
+    display: block;
+    background: var(--background-secondary);
+    color: var(--foreground);
+    border: none;
+    border-radius: 8px;
+}
+
+fieldset {
+    border: none;
+}
+
+#for_reason:not(:checked) ~ #reason {
+    display: none;
+}
+
+#in_guild, #not_in_banlist {
+    display: none;
+}
+
+#in_guild:target, #not_in_banlist:target {
+    display: block;
+}

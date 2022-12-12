@@ -1,2 +1,4 @@
 github_url: https://github.com/discord-math/discord-math.github.io
 discord_invite: https://discord.com/invite/math
+appeals_auth: https://api.mathematics.gg/appeals/auth
+appeals_submit: https://api.mathematics.gg/appeals/submit

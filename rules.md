@@ -1,12 +1,12 @@
 ---
 title: Discord Server Rules
-updated_at: 2021-06-04
+updated_at: 2023-05-17
 ---
 
 ## DO NOT
  - Do not post provocative content or otherwise harass and discriminate against groups or individuals.
  - Do not post anything NSFW (18+), and in general try to keep it family friendly. Do not use an inappropriate nickname or profile picture.
- - Do not spam, flood, or post unsolicited advertisements.
+ - Do not spam, flood, or post unsolicited advertisements. Do not post responses written by ChatGPT or a similar AI tool.
  - Do not insult, attack, troll, gaslight other people. Do not publish people's private information without their consent. In general apply common sense, be respectful to others, and act in good faith.
  - __Do not cheat on tests or exams__. Do not be academically dishonest. Do not offer money for doing homework assignments, and vice versa.
  - We cannot allow people under the age of 13 on the server.

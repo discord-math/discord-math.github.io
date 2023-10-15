@@ -26,13 +26,13 @@ Mark a forum post as unsolved. Can be done by the owner of the thread or by peop
 
 ## Factoids
 
-A factoid is a short command that can be used to prompt <a class="mention">@Bot</a> to recall a single message containing text. To use a factoid, simply send a message containing the factoid command and no other text. Below is a list of all help-related factoids, alongside their content. These can be used by all users. 
+A factoid is a short command that can be used to prompt <a class="mention">@Bot</a> to recall a single message containing text. Factoids can be triggered by a command-like syntax: `!<name of factoid>`. The name can be followed by anything, and the bot will choose the longest prefix that matches a known factoid. Below is a list of all help-related factoids, alongside their content. These can be used by all users. 
 
 ### `!15m`
 > Please only use the Helpers ping once if your question has not been answered for 15 minutes. Please do not ping or DM individual users about your question.
 
 ### `!help`
-> To ask for mathematics help on this server, please open your own help channel or help thread. See ⁠#how-to-get-help for instructions.
+> To ask for mathematics help on this server, please open your own help channel or help thread. See [⁠#how-to-get-help](https://discord.com/channels/268882317391429632/488120190538743810){: .mention} for instructions.
 
 ### `!status`
 > What step are you on?
@@ -63,7 +63,7 @@ A factoid is a short command that can be used to prompt <a class="mention">@Bot<
 > Please don't repeatedly close and claim a new channel with the exact same question. This erases all previous progress made towards your problem and is confusing for helpers, making it more difficult to help you. Please be patient, even if your channel has not received much attention.
 
 ### `!occupied`
-> Someone else is already using this help channel. If you need help with a question, please open your own help channel/thread (see ⁠#how-to-get-help for instructions).
+> Someone else is already using this help channel. If you need help with a question, please open your own help channel/thread (see [⁠#how-to-get-help](https://discord.com/channels/268882317391429632/488120190538743810){: .mention} for instructions).
 
 ### `!redir`
 > This channel is only for on-topic discussion. Please take casual conversation to ⁠#discussion or ⁠#chill.
@@ -88,4 +88,4 @@ A factoid is a short command that can be used to prompt <a class="mention">@Bot<
 > Please do not ping individual helpers unprompted.
 
 ### `!nogpt`
-> Please do not trust ChatGPT or similar AI tools for mathematical tasks, as they often generate output which "sounds correct" but has numerous factual or logical errors. Use of these AI tools to answer other people's help questions is strictly against server rules (see #rules).
+> Please do not trust ChatGPT or similar AI tools for mathematical tasks, as they often generate output which "sounds correct" but has numerous factual or logical errors. Use of these AI tools to answer other people's help questions is strictly against server rules (see [#rules](/rules.md){: target="_blank" .mention}).

@@ -1,0 +1,72 @@
+:root {
+  --srmod-color: #ff9fe2;
+  --mod-color: #87e9ff;
+  --honorable-color: #ffd25e;
+  --helpful-color: #1ba56d;
+  --booster-color: #d5aaff;
+  --very-active-color: #649bed;
+  --active-color: #185ec9;
+}
+
+.mention.senior-moderator {
+  color: var(--srmod-color);
+  background: color-mix(in srgb, var(--srmod-color) 10%, transparent);
+}
+
+.mention.senior-moderator:hover {
+  background: color-mix(in srgb, var(--srmod-color) 25%, transparent);
+}
+
+.mention.moderators {
+  color: var(--mod-color);
+  background: color-mix(in srgb, var(--mod-color) 10%, transparent);
+}
+
+.mention.moderators:hover {
+  background: color-mix(in srgb, var(--mod-color) 25%, transparent);
+}
+
+.mention.honorable {
+  color: var(--honorable-color);
+  background: color-mix(in srgb, var(--honorable-color) 10%, transparent);
+}
+
+.mention.honorable:hover {
+  background: color-mix(in srgb, var(--honorable-color) 25%, transparent);
+}
+
+.mention.helpful {
+  color: var(--helpful-color);
+  background: color-mix(in srgb, var(--helpful-color) 10%, transparent);
+}
+
+.mention.helpful:hover {
+  background: color-mix(in srgb, var(--helpful-color) 25%, transparent);
+}
+
+.mention.booster {
+  color: var(--booster-color);
+  background: color-mix(in srgb, var(--booster-color) 10%, transparent);
+}
+
+.mention.booster:hover {
+  background: color-mix(in srgb, var(--booster-color) 25%, transparent);
+}
+
+.mention.very-active {
+  color: var(--very-active-color);
+  background: color-mix(in srgb, var(--very-active-color) 10%, transparent);
+}
+
+.mention.very-active:hover {
+  background: color-mix(in srgb, var(--very-active-color) 25%, transparent);
+}
+
+.mention.active {
+  color: var(--active-color);
+  background: color-mix(in srgb, var(--active-color) 10%, transparent);
+}
+
+.mention.active:hover {
+  background: color-mix(in srgb, var(--active-color) 25%, transparent);
+}

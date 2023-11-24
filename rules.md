@@ -1,6 +1,6 @@
 ---
 title: Discord Server Rules
-updated_at: 2023-05-17
+updated_at: 2023-11-24
 ---
 
 ## DO NOT

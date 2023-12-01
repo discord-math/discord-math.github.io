@@ -47,10 +47,10 @@ A factoid is a short command that can be used to prompt <a class="mention">@Bot<
 ### `!show`
 > Show your work, and if possible, explain where you are stuck.
 
-### `!onechannel`
+### `!onechannel` / `!1c`
 > Please stick to your channel.
 
-### `!volunteers`
+### `!volunteers` / `!vol`
 > Helpers are just people volunteering their time to help you. Be polite and patient.
 
 ### `!nosols`
@@ -89,3 +89,18 @@ A factoid is a short command that can be used to prompt <a class="mention">@Bot<
 
 ### `!nogpt`
 > Please do not trust ChatGPT or similar AI tools for mathematical tasks, as they often generate output which "sounds correct" but has numerous factual or logical errors. Use of these AI tools to answer other people's help questions is strictly against server rules (see [#rules](/rules.md){: target="_blank" .mention}).
+
+### `!done`
+> If you are done with this channel, please mark your problem as solved by typing `.close`
+
+### `!topic`
+> Please read the channel description before posting, and stay on topic.
+
+### `!filetype` / `!ss` / `!img` / `!pic` / `!nopdf`
+> Please post images (such as PNGs or JPGs) of the question rather than other filetypes such as PDFs which have to be downloaded. Non-image downloads can potentially contain viruses or other security risks.
+
+### `!noans`
+> The purpose of this server is to help you learn, not to hand out answers. Do not ask someone to give you the answer directly.
+
+### `!onequestion` / `!1q`
+> It is suggested that you limit yourself to one question per help channel, opening a new one once your original question is answered and your original channel has been closed. This is to make your channel easier to follow for potential helpers and can bring attention to the fact that your question has changed.

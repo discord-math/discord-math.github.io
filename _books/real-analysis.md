@@ -24,3 +24,9 @@ Amann, H., Escher, J. (2005, 2008). *ISBN I 9783764371531, ISBN II 9783764374723
 *No formal prerequisites*
 
 This is the standard book used for teaching mathematical analysis in Germany and could be somewhat described as the German Rudin. It is available fully translated in English, which already speaks for its quality. The first chapter (of the first book) starts with an introduction to proofs and somewhat unorthodoxly with some group, ring and field theory as well as some linear algebra. This chapter can be skipped and used as a reference when needed for the later things. Thorough treatment of all topics covered and very nicely written with a ton of content (the second book also includes a treatment of complex analysis). Includes a ton of good exercises for all levels.
+
+---
+**An Introduction to Analysis**\\
+Wade, W. (4th ed. 2009). *ISBN 9780132296380*.
+
+I don't see this book mentioned often, but it's one of my analysis professor's favorites and one of mine too. It covers the contents of a standard sequence in single-variable, then multivariable analysis. The definitions are well-motivated, and the textbook is much friendlier to read than a text like Rudin but covers more material and moves faster than a text like Abbott. The formatting of the text is very clean, and I also found that it did a good job of emphasizing important points. The progression of topics is very natural, and it also contains some optional topics like Fourier series that often aren't included in a first course in analysis. Perfect for a student learning analysis for the first time.

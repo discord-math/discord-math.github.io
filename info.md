@@ -1,6 +1,6 @@
 ---
 title: Server Info
-updated_at: 2022-09-23
+updated_at: 2024-02-12
 extra_styles: roles
 ---
 
@@ -50,10 +50,10 @@ Here are the most important roles. Using the button below you can manage the sel
  - <a class="mention moderators">@Moderators</a> — community members who have been trusted with the responsibility of upkeeping our rules and maintaining order on the server.
  - <a class="mention">@studying!</a> — blocks access to social channels to help you remove distractions and concentrate on your work. Use the button below to self-assign this role.
  - <a class="mention">@Talks</a> — be notified about the various talks and seminars conducted by our users. Use the button below to self-assign this role. Event organization happens in #events, message a moderator if you'd like to present!
- - <a class="mention">@Pre-University</a> — people who are studying topics in mathematics that are usually introduced before undergraduate math courses. Use the button below to self-assign this role.
- - <a class="mention">@Undergraduate</a> — people who are either studying mathematics at university, or are studying the content you would usually see in a university mathematics course. Use the button below to self-assign this role.
- - <a class="mention">@Graduate+</a> — people who have either completed a degree substantially related to mathematics, or who are studying mathematics beyond what you would typically see in an undergraduate mathematics course. You can use the button below to apply for this role.
- - The <a class="mention">@Undergraduate</a> and <a class="mention">@Graduate+</a> roles aren’t necessarily tied to being enrolled in a program or having degrees, but rather whether you are doing mathematics at the indicated level.
+ - <a class="mention">@Pre-University Math</a> — people who are studying mathematics seen during secondary school such as algebra, geometry, or trigonometry. Use the button below to self-assign this role.
+ - <a class="mention">@Undergraduate Math</a> — people who are studying topics seen by a typical mathematics major such as linear algebra, differential equations, real analysis, or group theory. Use the button below to self-assign this role.
+ - <a class="mention">@Postgraduate Math</a> — people who are studying mathematics beyond a typical undergraduate mathematics degree. You can use the button below to apply for this role; the application will ask you to briefly list your research interests.
+ - The <a class="mention">@Undergraduate Math</a> and <a class="mention">@Postgraduate Math</a> roles aren’t necessarily tied to being enrolled in a program or having degrees, but rather whether you are doing mathematics at the indicated level.
  - <a class="mention booster">@Very cool ppl</a> — nitro boosters.
 
 There's supposed to be a button here but it's actually in the [Discord channel](https://discord.com/channels/268882317391429632/525440994242461702/987801227414880296){: target="_blank"}.

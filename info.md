@@ -1,6 +1,6 @@
 ---
 title: Server Info
-updated_at: 2022-09-23
+updated_at: 2024-02-12
 extra_styles: roles
 ---
 
